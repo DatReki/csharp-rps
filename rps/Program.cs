@@ -89,10 +89,10 @@ namespace RPS
                     restartText = "The choice you entered isn't a correct one. Press any key to reset";
                     break;
                 case 1:
-                    restartText = $"Computer Choose: {randomChoice}\nIt's a {gameResult}. Please press any key to reset";
+                    restartText = $"Computer chose: {randomChoice}\nIt's a {gameResult}. Please press any key to reset";
                     break;
                 case 0:
-                    restartText = $"Computer Choose: {randomChoice}\nYou {gameResult}. Please press any key to reset";
+                    restartText = $"Computer chose: {randomChoice}\nYou {gameResult}. Please press any key to reset";
                     break;
             }
             Console.WriteLine(restartText);
